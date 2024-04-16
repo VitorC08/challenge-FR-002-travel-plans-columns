@@ -34,4 +34,9 @@ export default createGlobalStyle`
     img{
         width:90px;
     }
+
+    button:hover{
+     opacity: .7;
+     cursor: pointer;  
+    }
 `

@@ -9,5 +9,8 @@ color: ${({fontColor}) => fontColor};
 background-color: white;
 border: none;
 border-radius: 5px;
-font-weight:500;
+font-weight:600;
+font-size:15px;
+transition: .3s ease all; 
+
 `
