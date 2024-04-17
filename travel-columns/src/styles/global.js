@@ -39,4 +39,5 @@ export default createGlobalStyle`
      opacity: .7;
      cursor: pointer;  
     }
+
 `
