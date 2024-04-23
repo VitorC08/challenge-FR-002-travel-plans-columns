@@ -1,4 +1,4 @@
-import { createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
@@ -12,6 +12,7 @@ export default createGlobalStyle`
         display: grid;
         place-items: center;
         height: 100vh;
+        background-color: ${({theme}) => theme.COLORS.PRIMARY_COLOR}
     }
 
     body, button{
@@ -21,13 +22,13 @@ export default createGlobalStyle`
 
     h2{
         font-size: 30px;
-        color:${({theme}) => theme.COLORS.WHITE};
+        color:${({ theme }) => theme.COLORS.TEXT_COLOR};
         font-weight: 700;
         letter-spacing: 2px;
     }
 
     p{
-        color:${({theme}) => theme.COLORS.WHITE};
+        color:${({ theme }) => theme.COLORS.TEXT_COLOR};
         text-align: center;
     }
 
@@ -40,4 +41,4 @@ export default createGlobalStyle`
      cursor: pointer;  
     }
 
-`
+`;

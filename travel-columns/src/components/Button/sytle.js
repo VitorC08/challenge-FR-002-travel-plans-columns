@@ -1,15 +1,14 @@
 import styled from "styled-components"
-import theme from "../../styles/theme"
 
-export const Container = styled.button`
+export const Button = styled.button`
 
-width: 150px; 
-height: 40px;
+width: 200px; 
+height: 50px;
 color: ${({fontColor}) => fontColor};
 background-color: white;
 border: none;
 border-radius: 5px;
-font-weight:600;
+font-weight:700;
 font-size:15px;
 transition: .3s ease all; 
 

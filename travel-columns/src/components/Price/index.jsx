@@ -1,7 +1,5 @@
-import { Container } from "./sytle"
+import { Container } from "./sytle";
 
-export function Price({price}){
-    return(
-    <Container>R$ {price}</Container>
-    )
+export function Price({ price }) {
+  return <Container>{price}</Container>;
 }

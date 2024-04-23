@@ -1,11 +1,5 @@
-import { Container } from "./sytle";
+import { Button } from "./sytle";
 
-export function StyledButton ({title}) {
-
-    return(
-        <Container>
-            {title}
-        </Container>
-    )
-
+export function StyledButton({ children, fontColor }) {
+  return <Button fontColor={fontColor}>{children}</Button>;
 }
