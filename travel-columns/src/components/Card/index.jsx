@@ -9,7 +9,7 @@ export function Card({
   color,
   svg,
   price,
-  buttonFontColor,
+  buttonFontColor
 }) {
   return (
     <Container color={color}>

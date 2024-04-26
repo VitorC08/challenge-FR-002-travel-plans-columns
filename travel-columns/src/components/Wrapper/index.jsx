@@ -12,10 +12,10 @@ export function Wrapper() {
       <Card
         title="Basic"
         description="Nosso plano Básico oferece passagens de ônibus para clientes que desejam viajar com comodidade e segurança."
-        color={theme.COLORS.ORANGE}
+        color={theme.COLORS.BLUE}
         svg={basicIcon}
         price={199}
-        buttonFontColor={theme.COLORS.ORANGE}
+        buttonFontColor={theme.COLORS.BLUE}
       />
 
       <Card

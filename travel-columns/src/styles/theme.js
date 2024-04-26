@@ -1,6 +1,6 @@
 export default {
     COLORS: {
-        ORANGE: "#FF9000",
+        BLUE: "#90CAF9",
         AQUA: "#02b093",
         GREEN: "#01473c",
         PRIMARY_COLOR: "#EEF1F1",
